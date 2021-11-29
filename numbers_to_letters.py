@@ -1,6 +1,4 @@
-
 from num2words import num2words
-
 
 print("Insert the numbers, and i will write in letters:\n")
 
@@ -19,7 +17,5 @@ while True:
             print('number/s inserted : {}'.format(num2words(val), end =" "))
 
     else:
-        print('unknow input! digit [h] for help')
-
-
+       print('unknow input! digit [h] for help')
 
